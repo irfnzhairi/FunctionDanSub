@@ -23,14 +23,13 @@
     End Function
 
     Private Function Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
-        Label3 = F1()
+        Label3.Text = F1()
     End Function
 
     Private Function F2()
         Dim strText2 As String
         strText2 = TextBox2.Text
-
-        Return Label4
+        Return strText2
     End Function
 
     Private Function Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
